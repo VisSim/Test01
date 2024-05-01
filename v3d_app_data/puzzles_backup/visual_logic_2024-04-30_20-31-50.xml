@@ -1,0 +1,177 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="true" scrollx="20.99995522234167" scrolly="-360.0925699869793" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="!}kFU3vZ;j/3.oBgqItd" x="110" y="30">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setCSSRuleStyle" id="22fdUi7GOcm|Pdx9Eq+Z" x="110" y="250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PROPERTY">background</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="gM]11o1HiDlu~~DrN*Kf">
+          <field name="TEXT">red</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="(}+-{_iM:#I)2Z8]5JVd">
+          <field name="TEXT">.v3d-simple-preloader-bar</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setCSSRuleStyle" id="[O|t/d5y~#WRIgpyKOz7">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+          <field name="PROPERTY">backgroundImage</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id=";k$-SWMOtMXrj3TTYlzr">
+              <field name="TEXT">url('my_image.png')</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="fP`FR/W$B=ssa04/]=:r">
+              <field name="TEXT">.v3d-simple-preloader-logo</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setCSSRuleStyle" id="*`uj.}3ymM3`+4{!,c;O">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+              <field name="PROPERTY">background</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="UPZm|$~Z_IiK*3[^h67z">
+                  <field name="TEXT">#DCDCDC</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="nh2Ypt23UJ:*.Jq$Gl%]">
+                  <field name="TEXT">.v3d-simple-preloader-background</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setCSSRuleStyle" id="w1]D($OkroyBraD^OD_U" x="110" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PROPERTY">width</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="+fJj?9mu)d+-XcAIqRO]">
+          <field name="TEXT">24px</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id=")N^-qoj-BTE2|o9Hj2K[">
+          <field name="TEXT">.v3d-annotation</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setCSSRuleStyle" id="XVwNOAfHj?99|=GyNWKY">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+          <field name="PROPERTY">height</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="E74LRX?@.QN`)!J?1jgD">
+              <field name="TEXT">24px</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="8np_VtS14xK0s!A?dybn">
+              <field name="TEXT">.v3d-annotation</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setCSSRuleStyle" id="54EyJQ)c/]`$)T}l+/4L">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+              <field name="PROPERTY">minWidth</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <block type="text" id="}%?{xQ|Oet79.,de+Q,W">
+                  <field name="TEXT">0px</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="E?])}W|tBdynV#/;S=?j">
+                  <field name="TEXT">.v3d-annotation</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setCSSRuleStyle" id="L.o)Oi`|mX`Fj67)S0yT">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                  <field name="PROPERTY">padding</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <block type="text" id="qSQXgctncA(R.9[e?/UR">
+                      <field name="TEXT">0px</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="lpm6F14_@2_Olt(fNo/T">
+                      <field name="TEXT">.v3d-annotation</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setCSSRuleStyle" id="In0Wx!T(SUX$@=Xe}n7F">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                      <field name="PROPERTY">fontSize</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <block type="text" id="E%@;lU]Kgs=e,$Gtj=d;">
+                          <field name="TEXT">12px</field>
+                        </block>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="DCn:uJ}I+~7y[p5jSIz_">
+                          <field name="TEXT">.v3d-annotation</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setCSSRuleStyle" id=")XZ~5lG=U0342#wvSqoA" x="110" y="670">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PROPERTY">backgroundColor</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="KAeQ7k/X*2dsnqa$15=J">
+          <field name="TEXT">gray</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="zVe$4|YZXs9q4xrbdFU8">
+          <field name="TEXT">.v3d-annotation-transparent</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setCSSRuleStyle" id="e5pt+VK0foxhI0u;w0Mo">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+          <field name="PROPERTY">opacity</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id="Fxs8lj@F]L66alt;F,sL">
+              <field name="TEXT">0.0</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id=":y7@d([E,82G#j{a3SY.">
+              <field name="TEXT">.v3d-annotation-transparent</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <editorsettings viewport-x="750" viewport-y="37" viewport-w="512" viewport-h="285.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

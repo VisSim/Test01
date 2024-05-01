@@ -1,0 +1,45 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="true" scrollx="37.3333740234375" scrolly="-19.73330535888678" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="!}kFU3vZ;j/3.oBgqItd" x="110" y="30">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setCSSRuleStyle" id="22fdUi7GOcm|Pdx9Eq+Z" x="110" y="250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PROPERTY">background</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <block type="text" id="gM]11o1HiDlu~~DrN*Kf">
+          <field name="TEXT">red</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="(}+-{_iM:#I)2Z8]5JVd">
+          <field name="TEXT">.v3d-simple-preloader-bar</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setCSSRuleStyle" id="[O|t/d5y~#WRIgpyKOz7">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+          <field name="PROPERTY">backgroundImage</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <block type="text" id=";k$-SWMOtMXrj3TTYlzr">
+              <field name="TEXT">url('my_image.png')</field>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="fP`FR/W$B=ssa04/]=:r">
+              <field name="TEXT">.v3d-simple-preloader-logo</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <editorsettings viewport-x="750" viewport-y="37" viewport-w="512" viewport-h="285.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
